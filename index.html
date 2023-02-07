@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "./css/bootrapt.min.css">
+    <script scr ="./js/jquery.min.js"></script>
+    <script src ="script.js"></script>
+    <script src ="./js/jquery.min.js"></script>
+</head>
+<body>
+
+    Custormer Name:
+    <input type ="text" id ="name" >
+    <br>
+    ID:
+    <input type ="text" id ="id">
+    <br>
+    Product Name:
+    <input type="text" id ="prdname">
+    <br>
+    Quanity:
+    <input type="text" id = "qty">
+    <br>
+    Price:
+    <input type="text" id ="price">
+    <br>
+    <input type="button" value="Save" onclick = "Save()" >
+    <input type="button" value="Show" onclick ="show ()">
+    <input type="button" value="Reset" onclick ="reset()">
+    <table class="table">
+    <thead class = "thead-dark">
+        <tr>
+            <th>Auto increment</th>
+            <th>Custonmer Name</th>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+         </thead>
+         <tbody id ="tbl"></tbody>
+        </table>
+
+</body>
+</html>
